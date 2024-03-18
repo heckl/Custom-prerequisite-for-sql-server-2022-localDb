@@ -1,10 +1,10 @@
 ClickOnce has prerequisite for
-“Sql server 2012 Express localDb”
-“Sql server 2016 Express localDb”
-“Sql server 2017 Express localDb”
-“Sql server 2012 Express localDb”
+- “Sql server 2012 Express localDb”
+- “Sql server 2016 Express localDb”
+- “Sql server 2017 Express localDb”
+- “Sql server 2012 Express localDb”
 but not for
-“Sql server 2022 Express localDb”.
+- “Sql server 2022 Express localDb”.
 https://developercommunity.visualstudio.com/t/ClickOnce-Sql-server-2022-Express-local/10614924
 
 - copy the files into c:\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages
