@@ -14,7 +14,7 @@ Add the custom dependency:
 - copy the files into c:\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages
 	- you need admin rights
 - now the new dependency should appear in VS
-	- you do not have to restart VS, just press in "project / publish" the "more actions / edit"
+	- you do not have to restart VS, just press in "project / publish" and the "more actions / edit"
 - creating from scratch
 	- start from "c:\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages\SqlLocalDB2019"
 	- modify product.xml: ProductCode, SearchPath
