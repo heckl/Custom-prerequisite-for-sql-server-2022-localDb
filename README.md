@@ -5,8 +5,11 @@ ClickOnce has prerequisite for
 - “Sql server 2012 Express localDb”
 but not for
 - “Sql server 2022 Express localDb”.
-https://developercommunity.visualstudio.com/t/ClickOnce-Sql-server-2022-Express-local/10614924
 
+
+See, https://developercommunity.visualstudio.com/t/ClickOnce-Sql-server-2022-Express-local/10614924
+
+Add the custom dependency:
 - copy the files into c:\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages
 	- you need admin rights
 - now the new dependency should appear in VS
