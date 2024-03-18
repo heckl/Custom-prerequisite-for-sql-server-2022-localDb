@@ -18,7 +18,7 @@ Add the custom dependency:
 - creating from scratch
 	- start from "c:\Program Files (x86)\Microsoft SDKs\ClickOnce Bootstrapper\Packages\SqlLocalDB2019"
 	- modify product.xml: ProductCode, SearchPath
-		- <BypassIf Property="sqllocaldbVersion" Compare="VersionGreaterThanOrEqualTo" Value="2022.1.1.1"/>
+		- `<BypassIf Property="sqllocaldbVersion" Compare="VersionGreaterThanOrEqualTo" Value="2022.1.1.1"/>`
 		- I did not change: vc_redist.x64.exe
 	- modify en / eula.rtf, 2019 -> 2022
 	- modify en / package.xml, 2019 -> 2022
