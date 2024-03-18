@@ -3,6 +3,7 @@ ClickOnce has prerequisite for
 - “Sql server 2016 Express localDb”
 - “Sql server 2017 Express localDb”
 - “Sql server 2012 Express localDb”
+
 but not for
 - “Sql server 2022 Express localDb”.
 
